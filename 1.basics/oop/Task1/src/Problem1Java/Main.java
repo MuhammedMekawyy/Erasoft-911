@@ -5,7 +5,7 @@ package Problem1Java;
 public class Main {
     public static void main(String[] args) {
 
-        Student student = new Student( 15 , 2001 , "Mohamed") ;
+        Student student = new Student( 15 , 2001 , "Mohamed");
 
     }
 }
