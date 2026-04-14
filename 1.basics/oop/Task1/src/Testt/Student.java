@@ -36,8 +36,14 @@ public class Student {
 
     @Override
     public int hashCode() {
-        int res = Objects.hash(id, name);
-        System.out.println("---->"+res);
-        return res;
+        return Objects.hash(id, name);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
