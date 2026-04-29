@@ -3,7 +3,7 @@ package model;
 public class Account {
     private String userName;
     private String password;
-    private Double balance;
+    private Double balance=0.0;
     private String phoneNumber;
     private float age;
 
@@ -69,4 +69,5 @@ public class Account {
     public void setUserName(String userName) {
         this.userName = userName;
     }
+
 }
